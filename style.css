@@ -1,0 +1,51 @@
+body {
+  background-color: purple;
+
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.photo {
+  height: 400px;
+
+  background-image: url(./images/pc-slider00.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.two {
+  background-image: url(./images/pc-slider01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.three {
+  background-image: url(./images/pc-slider02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img {
+  display: block;
+}
+
+/*Позиціонування*/
+.container {
+  position: relative;
+  z-index: 0;
+  height: 400px;
+}
+
+.rev_slider {
+  position: absolute;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+
+  color: white;
+}
